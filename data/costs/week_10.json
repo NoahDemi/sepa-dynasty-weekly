@@ -1,0 +1,14 @@
+{
+ "week": 10,
+ "items": [
+  {
+   "kind": "tts",
+   "label": "elevenlabs",
+   "characters": 12764,
+   "usd": 1.5306,
+   "spent": true
+  }
+ ],
+ "spent_usd": 1.5306,
+ "total_with_estimates_usd": 1.5306
+}

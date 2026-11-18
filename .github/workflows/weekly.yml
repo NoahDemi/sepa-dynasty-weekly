@@ -1,0 +1,97 @@
+name: Weekly episode
+
+on:
+  schedule:
+    # Tuesday 8am US Eastern, after Monday Night Football. GitHub cron is UTC, so both
+    # offsets are listed (12:00 UTC = 8am EDT, 13:00 UTC = 8am EST). The second run of the
+    # day is a no-op because of --skip-existing. Regular season + playoffs only.
+    - cron: "0 12,13 * 9-12,1 2"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "NFL week (blank = latest completed)"
+        required: false
+      dry_run:
+        description: "Script only, no TTS spend"
+        type: boolean
+        default: false
+      force:
+        description: "Rebuild even if this week's episode exists"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-episode
+  cancel-in-progress: false
+
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Build episode
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.week }}" ]; then ARGS="$ARGS --week ${{ inputs.week }}"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.force }}" != "true" ]; then ARGS="$ARGS --skip-existing"; fi
+          python -m podcast run $ARGS
+
+      - name: Commit episode and feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes data
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Episode: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: episodes
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      # If anything above fails, the job fails (GitHub emails the repo owner) and whatever
+      # was produced so far - snapshot, facts, script, audio clips - is kept for 14 days.
+      - name: Keep partial artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: partial-run-${{ github.run_id }}
+          path: |
+            data
+            episodes
+          retention-days: 14
+          include-hidden-files: true

@@ -1,0 +1,3136 @@
+{
+ "meta": {
+  "show": "SEPA Dynasty Weekly",
+  "league": "SEPA Dynasty",
+  "season": "2026",
+  "week": 10,
+  "generated_at": "2026-11-18T22:41:39+00:00",
+  "format": "10-team dynasty, superflex, half-PPR, TE premium, weekly median game",
+  "values_source": "FantasyCalc dynasty values (superflex, 10 teams, 0.5 PPR)"
+ },
+ "storylines": [
+  {
+   "type": "high_score",
+   "manager": "cbrech",
+   "points": 174.92
+  },
+  {
+   "type": "low_score",
+   "manager": "Cwmessi",
+   "points": 78.26
+  },
+  {
+   "type": "closest_game",
+   "winner": "rfrancella97",
+   "loser": "JoshWileczek",
+   "margin": 3.56
+  },
+  {
+   "type": "biggest_blowout",
+   "winner": "cbrech",
+   "loser": "Cwmessi",
+   "margin": 96.66
+  },
+  {
+   "type": "most_points_left_on_bench",
+   "manager": "Cwmessi",
+   "points_left_on_bench": 38.6,
+   "detail": {
+    "benched": "Josh Cameron",
+    "benched_position": "WR",
+    "benched_points": 14.2,
+    "started_instead": "Omar Cooper Jr.",
+    "started_position": "WR",
+    "started_points": 0.0,
+    "points_lost": 14.2
+   }
+  },
+  {
+   "type": "lost_matchup_but_beat_median",
+   "manager": "pjh5473",
+   "points": 135.44
+  },
+  {
+   "type": "bench_cost_the_win",
+   "manager": "JoshWileczek",
+   "lost_by": 3.56,
+   "points_left_on_bench": 16.58
+  },
+  {
+   "type": "upset",
+   "winner": "rfrancella97",
+   "loser": "JoshWileczek",
+   "winner_power_rank_before": 9,
+   "loser_power_rank_before": 3
+  },
+  {
+   "type": "won_matchup_but_lost_to_median",
+   "manager": "rfrancella97",
+   "points": 126.86
+  },
+  {
+   "type": "streak",
+   "manager": "Djax818",
+   "head_to_head_streak": "W8"
+  },
+  {
+   "type": "streak",
+   "manager": "aaronyuhas",
+   "head_to_head_streak": "L3"
+  },
+  {
+   "type": "streak",
+   "manager": "Cwmessi",
+   "head_to_head_streak": "L10"
+  }
+ ],
+ "matchup_recaps": {
+  "week": 10,
+  "league_median": 131.15,
+  "games": [
+   {
+    "winner": "hogantim97",
+    "winner_points": 146.06,
+    "loser": "pjh5473",
+    "loser_points": 135.44,
+    "margin": 10.62,
+    "tie": false,
+    "top_performer": {
+     "player": "Patrick Mahomes",
+     "position": "QB",
+     "points": 35.42,
+     "manager": "pjh5473"
+    },
+    "biggest_bench_blunder": {
+     "manager": "hogantim97",
+     "points_left_on_bench": 18.3,
+     "detail": {
+      "benched": "Tyler Higbee",
+      "benched_position": "TE",
+      "benched_points": 10.7,
+      "started_instead": "Tank Dell",
+      "started_position": "WR",
+      "started_points": 3.6,
+      "points_lost": 7.1
+     }
+    },
+    "loser_would_have_won_with_optimal_lineup": false,
+    "teams": [
+     {
+      "manager": "hogantim97",
+      "points": 146.06,
+      "top_starter": {
+       "player": "Joe Burrow",
+       "position": "QB",
+       "points": 33.16
+      },
+      "optimal_points": 164.36,
+      "points_left_on_bench": 18.3,
+      "worst_bench_decision": {
+       "benched": "Tyler Higbee",
+       "benched_position": "TE",
+       "benched_points": 10.7,
+       "started_instead": "Tank Dell",
+       "started_position": "WR",
+       "started_points": 3.6,
+       "points_lost": 7.1
+      },
+      "vs_median": "beat the median"
+     },
+     {
+      "manager": "pjh5473",
+      "points": 135.44,
+      "top_starter": {
+       "player": "Patrick Mahomes",
+       "position": "QB",
+       "points": 35.42
+      },
+      "optimal_points": 136.74,
+      "points_left_on_bench": 1.3,
+      "worst_bench_decision": {
+       "benched": "Dylan Sampson",
+       "benched_position": "RB",
+       "benched_points": 5.7,
+       "started_instead": "Rico Dowdle",
+       "started_position": "RB",
+       "started_points": 4.4,
+       "points_lost": 1.3
+      },
+      "vs_median": "beat the median"
+     }
+    ]
+   },
+   {
+    "winner": "stehr",
+    "winner_points": 170.48,
+    "loser": "aaronyuhas",
+    "loser_points": 103.9,
+    "margin": 66.58,
+    "tie": false,
+    "top_performer": {
+     "player": "Emmett Johnson",
+     "position": "RB",
+     "points": 32.1,
+     "manager": "stehr"
+    },
+    "biggest_bench_blunder": {
+     "manager": "aaronyuhas",
+     "points_left_on_bench": 22.5,
+     "detail": {
+      "benched": "Josh Downs",
+      "benched_position": "WR",
+      "benched_points": 13.3,
+      "started_instead": "Jordan Addison",
+      "started_position": "WR",
+      "started_points": 0.0,
+      "points_lost": 13.3
+     }
+    },
+    "loser_would_have_won_with_optimal_lineup": false,
+    "teams": [
+     {
+      "manager": "stehr",
+      "points": 170.48,
+      "top_starter": {
+       "player": "Emmett Johnson",
+       "position": "RB",
+       "points": 32.1
+      },
+      "optimal_points": 189.98,
+      "points_left_on_bench": 19.5,
+      "worst_bench_decision": {
+       "benched": "Deebo Samuel Sr.",
+       "benched_position": "WR",
+       "benched_points": 24.4,
+       "started_instead": "Malik Nabers",
+       "started_position": "WR",
+       "started_points": 4.9,
+       "points_lost": 19.5
+      },
+      "vs_median": "beat the median"
+     },
+     {
+      "manager": "aaronyuhas",
+      "points": 103.9,
+      "top_starter": {
+       "player": "Brock Purdy",
+       "position": "QB",
+       "points": 31.66
+      },
+      "optimal_points": 126.4,
+      "points_left_on_bench": 22.5,
+      "worst_bench_decision": {
+       "benched": "Josh Downs",
+       "benched_position": "WR",
+       "benched_points": 13.3,
+       "started_instead": "Jordan Addison",
+       "started_position": "WR",
+       "started_points": 0.0,
+       "points_lost": 13.3
+      },
+      "vs_median": "lost to the median"
+     }
+    ]
+   },
+   {
+    "winner": "cbrech",
+    "winner_points": 174.92,
+    "loser": "Cwmessi",
+    "loser_points": 78.26,
+    "margin": 96.66,
+    "tie": false,
+    "top_performer": {
+     "player": "Jahmyr Gibbs",
+     "position": "RB",
+     "points": 40.7,
+     "manager": "cbrech"
+    },
+    "biggest_bench_blunder": {
+     "manager": "Cwmessi",
+     "points_left_on_bench": 38.6,
+     "detail": {
+      "benched": "Josh Cameron",
+      "benched_position": "WR",
+      "benched_points": 14.2,
+      "started_instead": "Omar Cooper Jr.",
+      "started_position": "WR",
+      "started_points": 0.0,
+      "points_lost": 14.2
+     }
+    },
+    "loser_would_have_won_with_optimal_lineup": false,
+    "teams": [
+     {
+      "manager": "cbrech",
+      "points": 174.92,
+      "top_starter": {
+       "player": "Jahmyr Gibbs",
+       "position": "RB",
+       "points": 40.7
+      },
+      "optimal_points": 200.74,
+      "points_left_on_bench": 25.82,
+      "worst_bench_decision": {
+       "benched": "Mark Andrews",
+       "benched_position": "TE",
+       "benched_points": 16.2,
+       "started_instead": "Rhamondre Stevenson",
+       "started_position": "RB",
+       "started_points": 1.0,
+       "points_lost": 15.2
+      },
+      "vs_median": "beat the median"
+     },
+     {
+      "manager": "Cwmessi",
+      "points": 78.26,
+      "top_starter": {
+       "player": "DK Metcalf",
+       "position": "WR",
+       "points": 14.4
+      },
+      "optimal_points": 116.86,
+      "points_left_on_bench": 38.6,
+      "worst_bench_decision": {
+       "benched": "Josh Cameron",
+       "benched_position": "WR",
+       "benched_points": 14.2,
+       "started_instead": "Omar Cooper Jr.",
+       "started_position": "WR",
+       "started_points": 0.0,
+       "points_lost": 14.2
+      },
+      "vs_median": "lost to the median"
+     }
+    ]
+   },
+   {
+    "winner": "rfrancella97",
+    "winner_points": 126.86,
+    "loser": "JoshWileczek",
+    "loser_points": 123.3,
+    "margin": 3.56,
+    "tie": false,
+    "top_performer": {
+     "player": "George Pickens",
+     "position": "WR",
+     "points": 38.0,
+     "manager": "rfrancella97"
+    },
+    "biggest_bench_blunder": {
+     "manager": "rfrancella97",
+     "points_left_on_bench": 21.52,
+     "detail": {
+      "benched": "Aaron Rodgers",
+      "benched_position": "QB",
+      "benched_points": 15.62,
+      "started_instead": "Jordan Love",
+      "started_position": "QB",
+      "started_points": 10.8,
+      "points_lost": 4.82
+     }
+    },
+    "loser_would_have_won_with_optimal_lineup": true,
+    "teams": [
+     {
+      "manager": "rfrancella97",
+      "points": 126.86,
+      "top_starter": {
+       "player": "George Pickens",
+       "position": "WR",
+       "points": 38.0
+      },
+      "optimal_points": 148.38,
+      "points_left_on_bench": 21.52,
+      "worst_bench_decision": {
+       "benched": "Aaron Rodgers",
+       "benched_position": "QB",
+       "benched_points": 15.62,
+       "started_instead": "Jordan Love",
+       "started_position": "QB",
+       "started_points": 10.8,
+       "points_lost": 4.82
+      },
+      "vs_median": "lost to the median"
+     },
+     {
+      "manager": "JoshWileczek",
+      "points": 123.3,
+      "top_starter": {
+       "player": "Jaxon Smith-Njigba",
+       "position": "WR",
+       "points": 27.1
+      },
+      "optimal_points": 139.88,
+      "points_left_on_bench": 16.58,
+      "worst_bench_decision": {
+       "benched": "Kirk Cousins",
+       "benched_position": "QB",
+       "benched_points": 15.38,
+       "started_instead": "Bryce Young",
+       "started_position": "QB",
+       "started_points": 8.1,
+       "points_lost": 7.28
+      },
+      "vs_median": "lost to the median"
+     }
+    ]
+   },
+   {
+    "winner": "Djax818",
+    "winner_points": 136.94,
+    "loser": "kingdemi",
+    "loser_points": 100.18,
+    "margin": 36.76,
+    "tie": false,
+    "top_performer": {
+     "player": "Christian McCaffrey",
+     "position": "RB",
+     "points": 44.3,
+     "manager": "Djax818"
+    },
+    "biggest_bench_blunder": {
+     "manager": "Djax818",
+     "points_left_on_bench": 28.68,
+     "detail": {
+      "benched": "DJ Moore",
+      "benched_position": "WR",
+      "benched_points": 17.4,
+      "started_instead": "Chris Olave",
+      "started_position": "WR",
+      "started_points": 4.5,
+      "points_lost": 12.9
+     }
+    },
+    "loser_would_have_won_with_optimal_lineup": false,
+    "teams": [
+     {
+      "manager": "Djax818",
+      "points": 136.94,
+      "top_starter": {
+       "player": "Christian McCaffrey",
+       "position": "RB",
+       "points": 44.3
+      },
+      "optimal_points": 165.62,
+      "points_left_on_bench": 28.68,
+      "worst_bench_decision": {
+       "benched": "DJ Moore",
+       "benched_position": "WR",
+       "benched_points": 17.4,
+       "started_instead": "Chris Olave",
+       "started_position": "WR",
+       "started_points": 4.5,
+       "points_lost": 12.9
+      },
+      "vs_median": "beat the median"
+     },
+     {
+      "manager": "kingdemi",
+      "points": 100.18,
+      "top_starter": {
+       "player": "Trevor Lawrence",
+       "position": "QB",
+       "points": 26.78
+      },
+      "optimal_points": 122.58,
+      "points_left_on_bench": 22.4,
+      "worst_bench_decision": null,
+      "vs_median": "lost to the median"
+     }
+    ]
+   }
+  ]
+ },
+ "standings": [
+  {
+   "manager": "Djax818",
+   "wins": 17,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1461.64,
+   "points_against": 1137.68,
+   "record": "17-3",
+   "h2h_record": "9-1",
+   "median_record": "8-2",
+   "avg_points": 146.16,
+   "last3_avg_points": 149.8,
+   "h2h_streak": "W8",
+   "rank": 1
+  },
+  {
+   "manager": "cbrech",
+   "wins": 14,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1449.76,
+   "points_against": 1258.64,
+   "record": "14-6",
+   "h2h_record": "6-4",
+   "median_record": "8-2",
+   "avg_points": 144.98,
+   "last3_avg_points": 143.41,
+   "h2h_streak": "W1",
+   "rank": 2
+  },
+  {
+   "manager": "JoshWileczek",
+   "wins": 13,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1407.58,
+   "points_against": 1215.58,
+   "record": "13-7",
+   "h2h_record": "6-4",
+   "median_record": "7-3",
+   "avg_points": 140.76,
+   "last3_avg_points": 122.63,
+   "h2h_streak": "L1",
+   "rank": 3
+  },
+  {
+   "manager": "pjh5473",
+   "wins": 12,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1425.64,
+   "points_against": 1277.28,
+   "record": "12-8",
+   "h2h_record": "5-5",
+   "median_record": "7-3",
+   "avg_points": 142.56,
+   "last3_avg_points": 135.31,
+   "h2h_streak": "L1",
+   "rank": 4
+  },
+  {
+   "manager": "stehr",
+   "wins": 12,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1387.32,
+   "points_against": 1167.44,
+   "record": "12-8",
+   "h2h_record": "6-4",
+   "median_record": "6-4",
+   "avg_points": 138.73,
+   "last3_avg_points": 141.87,
+   "h2h_streak": "W1",
+   "rank": 5
+  },
+  {
+   "manager": "kingdemi",
+   "wins": 10,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1238.02,
+   "points_against": 1290.24,
+   "record": "10-10",
+   "h2h_record": "5-5",
+   "median_record": "5-5",
+   "avg_points": 123.8,
+   "last3_avg_points": 129.32,
+   "h2h_streak": "L1",
+   "rank": 6
+  },
+  {
+   "manager": "rfrancella97",
+   "wins": 8,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1137.04,
+   "points_against": 1301.56,
+   "record": "8-12",
+   "h2h_record": "6-4",
+   "median_record": "2-8",
+   "avg_points": 113.7,
+   "last3_avg_points": 122.42,
+   "h2h_streak": "W1",
+   "rank": 7
+  },
+  {
+   "manager": "hogantim97",
+   "wins": 7,
+   "losses": 13,
+   "ties": 0,
+   "points_for": 1188.84,
+   "points_against": 1385.44,
+   "record": "7-13",
+   "h2h_record": "4-6",
+   "median_record": "3-7",
+   "avg_points": 118.88,
+   "last3_avg_points": 133.82,
+   "h2h_streak": "W2",
+   "rank": 8
+  },
+  {
+   "manager": "aaronyuhas",
+   "wins": 6,
+   "losses": 14,
+   "ties": 0,
+   "points_for": 1219.04,
+   "points_against": 1275.56,
+   "record": "6-14",
+   "h2h_record": "3-7",
+   "median_record": "3-7",
+   "avg_points": 121.9,
+   "last3_avg_points": 103.97,
+   "h2h_streak": "L3",
+   "rank": 9
+  },
+  {
+   "manager": "Cwmessi",
+   "wins": 1,
+   "losses": 19,
+   "ties": 0,
+   "points_for": 859.58,
+   "points_against": 1465.04,
+   "record": "1-19",
+   "h2h_record": "0-10",
+   "median_record": "1-9",
+   "avg_points": 85.96,
+   "last3_avg_points": 68.06,
+   "h2h_streak": "L10",
+   "rank": 10
+  }
+ ],
+ "playoff_picture": {
+  "playoff_spots": 6,
+  "bye_seeds": 2,
+  "weeks_remaining": 4,
+  "games_remaining_per_team": 8,
+  "playoffs_start_week": 15,
+  "note": "Each week has two results: head-to-head and versus the league median.",
+  "teams": [
+   {
+    "seed": 1,
+    "manager": "Djax818",
+    "record": "17-3",
+    "max_possible_wins": 25,
+    "status": "clinched playoff spot",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 2,
+    "manager": "cbrech",
+    "record": "14-6",
+    "max_possible_wins": 22,
+    "status": "in playoff position",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 3,
+    "manager": "JoshWileczek",
+    "record": "13-7",
+    "max_possible_wins": 21,
+    "status": "in playoff position",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 4,
+    "manager": "pjh5473",
+    "record": "12-8",
+    "max_possible_wins": 20,
+    "status": "in playoff position",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 5,
+    "manager": "stehr",
+    "record": "12-8",
+    "max_possible_wins": 20,
+    "status": "in playoff position",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 6,
+    "manager": "kingdemi",
+    "record": "10-10",
+    "max_possible_wins": 18,
+    "status": "in playoff position",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 0
+   },
+   {
+    "seed": 7,
+    "manager": "rfrancella97",
+    "record": "8-12",
+    "max_possible_wins": 16,
+    "status": "outside looking in",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 2
+   },
+   {
+    "seed": 8,
+    "manager": "hogantim97",
+    "record": "7-13",
+    "max_possible_wins": 15,
+    "status": "outside looking in",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 3
+   },
+   {
+    "seed": 9,
+    "manager": "aaronyuhas",
+    "record": "6-14",
+    "max_possible_wins": 14,
+    "status": "outside looking in",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 4
+   },
+   {
+    "seed": 10,
+    "manager": "Cwmessi",
+    "record": "1-19",
+    "max_possible_wins": 9,
+    "status": "eliminated",
+    "clinched_bye": false,
+    "wins_behind_last_playoff_spot": 9
+   }
+  ]
+ },
+ "power_rankings": [
+  {
+   "rank": 1,
+   "manager": "Djax818",
+   "power_score": 100.0,
+   "previous_rank": 1,
+   "movement": 0,
+   "record": "17-3",
+   "standings_rank": 1,
+   "points_for": 1461.64,
+   "points_for_rank": 1,
+   "roster_dynasty_value": 88752,
+   "dynasty_value_rank": 1,
+   "top_assets": [
+    "Bijan Robinson (9362)",
+    "Caleb Williams (7232)",
+    "Drake Maye (6102)"
+   ],
+   "first_round_picks_owned": 2
+  },
+  {
+   "rank": 2,
+   "manager": "cbrech",
+   "power_score": 89.0,
+   "previous_rank": 2,
+   "movement": 0,
+   "record": "14-6",
+   "standings_rank": 2,
+   "points_for": 1449.76,
+   "points_for_rank": 2,
+   "roster_dynasty_value": 86252,
+   "dynasty_value_rank": 3,
+   "top_assets": [
+    "Jahmyr Gibbs (10553)",
+    "Josh Allen (10397)",
+    "Puka Nacua (7176)"
+   ],
+   "first_round_picks_owned": 2
+  },
+  {
+   "rank": 3,
+   "manager": "stehr",
+   "power_score": 82.5,
+   "previous_rank": 4,
+   "movement": 1,
+   "record": "12-8",
+   "standings_rank": 5,
+   "points_for": 1387.32,
+   "points_for_rank": 5,
+   "roster_dynasty_value": 88114,
+   "dynasty_value_rank": 2,
+   "top_assets": [
+    "Amon-Ra St. Brown (7195)",
+    "Malik Nabers (6358)",
+    "Trey McBride (6320)"
+   ],
+   "first_round_picks_owned": 2
+  },
+  {
+   "rank": 4,
+   "manager": "JoshWileczek",
+   "power_score": 73.6,
+   "previous_rank": 3,
+   "movement": -1,
+   "record": "13-7",
+   "standings_rank": 3,
+   "points_for": 1407.58,
+   "points_for_rank": 4,
+   "roster_dynasty_value": 76815,
+   "dynasty_value_rank": 7,
+   "top_assets": [
+    "Jaxon Smith-Njigba (10147)",
+    "CeeDee Lamb (6605)",
+    "Fernando Mendoza (3991)"
+   ],
+   "first_round_picks_owned": 2
+  },
+  {
+   "rank": 5,
+   "manager": "pjh5473",
+   "power_score": 73.0,
+   "previous_rank": 5,
+   "movement": 0,
+   "record": "12-8",
+   "standings_rank": 4,
+   "points_for": 1425.64,
+   "points_for_rank": 3,
+   "roster_dynasty_value": 77541,
+   "dynasty_value_rank": 6,
+   "top_assets": [
+    "Kenneth Walker III (6600)",
+    "Patrick Mahomes (5580)",
+    "James Cook III (5409)"
+   ],
+   "first_round_picks_owned": 3
+  },
+  {
+   "rank": 6,
+   "manager": "kingdemi",
+   "power_score": 54.3,
+   "previous_rank": 6,
+   "movement": 0,
+   "record": "10-10",
+   "standings_rank": 6,
+   "points_for": 1238.02,
+   "points_for_rank": 6,
+   "roster_dynasty_value": 75078,
+   "dynasty_value_rank": 8,
+   "top_assets": [
+    "Trevor Lawrence (5837)",
+    "Christian Watson (4366)",
+    "Javonte Williams (3670)"
+   ],
+   "first_round_picks_owned": 4
+  },
+  {
+   "rank": 7,
+   "manager": "hogantim97",
+   "power_score": 48.0,
+   "previous_rank": 8,
+   "movement": 1,
+   "record": "7-13",
+   "standings_rank": 8,
+   "points_for": 1188.84,
+   "points_for_rank": 8,
+   "roster_dynasty_value": 78719,
+   "dynasty_value_rank": 4,
+   "top_assets": [
+    "Joe Burrow (7683)",
+    "Brock Bowers (7231)",
+    "Jeremiyah Love (4832)"
+   ],
+   "first_round_picks_owned": 3
+  },
+  {
+   "rank": 8,
+   "manager": "aaronyuhas",
+   "power_score": 46.4,
+   "previous_rank": 7,
+   "movement": -1,
+   "record": "6-14",
+   "standings_rank": 9,
+   "points_for": 1219.04,
+   "points_for_rank": 7,
+   "roster_dynasty_value": 77966,
+   "dynasty_value_rank": 5,
+   "top_assets": [
+    "Brock Purdy (6540)",
+    "C.J. Stroud (4718)",
+    "Jonathan Taylor (4518)"
+   ],
+   "first_round_picks_owned": 3
+  },
+  {
+   "rank": 9,
+   "manager": "rfrancella97",
+   "power_score": 34.7,
+   "previous_rank": 9,
+   "movement": 0,
+   "record": "8-12",
+   "standings_rank": 7,
+   "points_for": 1137.04,
+   "points_for_rank": 9,
+   "roster_dynasty_value": 67212,
+   "dynasty_value_rank": 9,
+   "top_assets": [
+    "Ja'Marr Chase (8913)",
+    "Jordan Love (4958)",
+    "George Pickens (4081)"
+   ],
+   "first_round_picks_owned": 3
+  },
+  {
+   "rank": 10,
+   "manager": "Cwmessi",
+   "power_score": 0.0,
+   "previous_rank": 10,
+   "movement": 0,
+   "record": "1-19",
+   "standings_rank": 10,
+   "points_for": 859.58,
+   "points_for_rank": 10,
+   "roster_dynasty_value": 66217,
+   "dynasty_value_rank": 10,
+   "top_assets": [
+    "Tyler Warren (3215)",
+    "Breece Hall (3172)",
+    "KC Concepcion Jr. (2615)"
+   ],
+   "first_round_picks_owned": 6
+  }
+ ],
+ "transactions": {
+  "grading_note": "Trade grades use TODAY's dynasty values, in hindsight: net = value received minus value given.",
+  "trades_this_week": [],
+  "recent_trades_this_season": [
+   {
+    "season": "2026",
+    "week": 4,
+    "date": "2026-09-30",
+    "sides": [
+     {
+      "manager": "stehr",
+      "received": [
+       {
+        "asset": "2027 2nd-round pick, projected mid (originally rfrancella97's)",
+        "type": "pick",
+        "value": 1754
+       }
+      ],
+      "gave": [
+       {
+        "asset": "Jacory Croskey-Merritt",
+        "type": "player",
+        "position": "RB",
+        "value": 1223
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 1754,
+      "value_given": 1223,
+      "net_value": 531,
+      "grade": "B"
+     },
+     {
+      "manager": "rfrancella97",
+      "received": [
+       {
+        "asset": "Jacory Croskey-Merritt",
+        "type": "player",
+        "position": "RB",
+        "value": 1223
+       }
+      ],
+      "gave": [
+       {
+        "asset": "2027 2nd-round pick, projected mid (originally rfrancella97's)",
+        "type": "pick",
+        "value": 1754
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 1223,
+      "value_given": 1754,
+      "net_value": -531,
+      "grade": "B"
+     }
+    ]
+   },
+   {
+    "season": "2026",
+    "week": 8,
+    "date": "2026-10-29",
+    "sides": [
+     {
+      "manager": "kingdemi",
+      "received": [
+       {
+        "asset": "Kenyon Sadiq",
+        "type": "player",
+        "position": "TE",
+        "value": 2077
+       },
+       {
+        "asset": "2027 1st-round pick, projected late (originally cbrech's)",
+        "type": "pick",
+        "value": 2572
+       }
+      ],
+      "gave": [
+       {
+        "asset": "Nico Collins",
+        "type": "player",
+        "position": "WR",
+        "value": 4124
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 4649,
+      "value_given": 4124,
+      "net_value": 525,
+      "grade": "B"
+     },
+     {
+      "manager": "cbrech",
+      "received": [
+       {
+        "asset": "Nico Collins",
+        "type": "player",
+        "position": "WR",
+        "value": 4124
+       }
+      ],
+      "gave": [
+       {
+        "asset": "Kenyon Sadiq",
+        "type": "player",
+        "position": "TE",
+        "value": 2077
+       },
+       {
+        "asset": "2027 1st-round pick, projected late (originally cbrech's)",
+        "type": "pick",
+        "value": 2572
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 4124,
+      "value_given": 4649,
+      "net_value": -525,
+      "grade": "B"
+     }
+    ]
+   },
+   {
+    "season": "2026",
+    "week": 8,
+    "date": "2026-10-28",
+    "sides": [
+     {
+      "manager": "hogantim97",
+      "received": [
+       {
+        "asset": "Omarion Hampton",
+        "type": "player",
+        "position": "RB",
+        "value": 2900
+       }
+      ],
+      "gave": [
+       {
+        "asset": "Quinshon Judkins",
+        "type": "player",
+        "position": "RB",
+        "value": 2662
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 2900,
+      "value_given": 2662,
+      "net_value": 238,
+      "grade": "B"
+     },
+     {
+      "manager": "stehr",
+      "received": [
+       {
+        "asset": "Quinshon Judkins",
+        "type": "player",
+        "position": "RB",
+        "value": 2662
+       }
+      ],
+      "gave": [
+       {
+        "asset": "Omarion Hampton",
+        "type": "player",
+        "position": "RB",
+        "value": 2900
+       }
+      ],
+      "faab_received": 0,
+      "value_received": 2662,
+      "value_given": 2900,
+      "net_value": -238,
+      "grade": "B"
+     }
+    ]
+   }
+  ],
+  "waiver_and_free_agent_pickups": [
+   {
+    "manager": "rfrancella97",
+    "added": "Emari Demercado",
+    "position": "RB",
+    "nfl_team": "HOU",
+    "type": "waiver claim",
+    "faab_bid": 10,
+    "dynasty_value": 223,
+    "dropped": null,
+    "points_this_week": null,
+    "started_this_week": false,
+    "still_on_roster": true
+   },
+   {
+    "manager": "stehr",
+    "added": "Xavier Hutchinson",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "type": "waiver claim",
+    "faab_bid": 0,
+    "dynasty_value": 950,
+    "dropped": [
+     "Troy Franklin"
+    ],
+    "points_this_week": null,
+    "started_this_week": false,
+    "still_on_roster": true
+   },
+   {
+    "manager": "aaronyuhas",
+    "added": "MarShawn Lloyd",
+    "position": "RB",
+    "nfl_team": "GB",
+    "type": "free agent add",
+    "faab_bid": 0,
+    "dynasty_value": 786,
+    "dropped": [
+     "Pierre Strong Jr."
+    ],
+    "points_this_week": 5.4,
+    "started_this_week": false,
+    "still_on_roster": true
+   },
+   {
+    "manager": "pjh5473",
+    "added": "Chimere Dike",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "type": "free agent add",
+    "faab_bid": 0,
+    "dynasty_value": 673,
+    "dropped": [
+     "Najee Harris"
+    ],
+    "points_this_week": 3.1,
+    "started_this_week": true,
+    "still_on_roster": true
+   },
+   {
+    "manager": "aaronyuhas",
+    "added": "Deion Burks",
+    "position": "WR",
+    "nfl_team": "IND",
+    "type": "free agent add",
+    "faab_bid": 0,
+    "dynasty_value": 344,
+    "dropped": [
+     "Joe Fagnano"
+    ],
+    "points_this_week": null,
+    "started_this_week": false,
+    "still_on_roster": false
+   },
+   {
+    "manager": "aaronyuhas",
+    "added": "CJ Daniels",
+    "position": "WR",
+    "nfl_team": "LAR",
+    "type": "free agent add",
+    "faab_bid": 0,
+    "dynasty_value": 285,
+    "dropped": [
+     "Deion Burks"
+    ],
+    "points_this_week": 2.7,
+    "started_this_week": false,
+    "still_on_roster": true
+   }
+  ]
+ },
+ "rookie_watch": {
+  "note": "Rookies selected in this league's rookie drafts. Value changes are 30-day FantasyCalc trends.",
+  "classes": {
+   "2026": {
+    "biggest_risers_30d": [
+     {
+      "player": "Jonah Coleman",
+      "position": "RB",
+      "nfl_team": "DEN",
+      "age": 23,
+      "dynasty_value": 3099,
+      "position_rank": "RB18",
+      "value_change_30d": 1288,
+      "current_manager": "kingdemi",
+      "league_draft_pick": "1.08",
+      "drafted_by": "kingdemi",
+      "points_this_week": 0.0,
+      "season_points": 56.4
+     },
+     {
+      "player": "Emmett Johnson",
+      "position": "RB",
+      "nfl_team": "KC",
+      "age": 23,
+      "dynasty_value": 2159,
+      "position_rank": "RB28",
+      "value_change_30d": 569,
+      "current_manager": "stehr",
+      "league_draft_pick": "3.04",
+      "drafted_by": "stehr",
+      "points_this_week": 32.1,
+      "season_points": 85.9
+     },
+     {
+      "player": "KC Concepcion Jr.",
+      "position": "WR",
+      "nfl_team": "CLE",
+      "age": 22,
+      "dynasty_value": 2615,
+      "position_rank": "WR26",
+      "value_change_30d": 499,
+      "current_manager": "Cwmessi",
+      "league_draft_pick": "1.09",
+      "drafted_by": "stehr",
+      "points_this_week": 10.2,
+      "season_points": 80.1
+     }
+    ],
+    "biggest_fallers_30d": [
+     {
+      "player": "Denzel Boston",
+      "position": "WR",
+      "nfl_team": "CLE",
+      "age": 23,
+      "dynasty_value": 2267,
+      "position_rank": "WR30",
+      "value_change_30d": -474,
+      "current_manager": "JoshWileczek",
+      "league_draft_pick": "2.04",
+      "drafted_by": "JoshWileczek",
+      "points_this_week": 2.1,
+      "season_points": 88.8
+     },
+     {
+      "player": "Germie Bernard",
+      "position": "WR",
+      "nfl_team": "PIT",
+      "age": 23,
+      "dynasty_value": 1607,
+      "position_rank": "WR47",
+      "value_change_30d": -409,
+      "current_manager": "Cwmessi",
+      "league_draft_pick": "2.02",
+      "drafted_by": "Cwmessi",
+      "points_this_week": 1.0,
+      "season_points": 51.8
+     },
+     {
+      "player": "Jeremiyah Love",
+      "position": "RB",
+      "nfl_team": "ARI",
+      "age": 21,
+      "dynasty_value": 4832,
+      "position_rank": "RB5",
+      "value_change_30d": -343,
+      "current_manager": "hogantim97",
+      "league_draft_pick": "1.01",
+      "drafted_by": "hogantim97",
+      "points_this_week": 0.0,
+      "season_points": 47.9
+     }
+    ],
+    "most_valuable": [
+     {
+      "player": "Jeremiyah Love",
+      "position": "RB",
+      "nfl_team": "ARI",
+      "age": 21,
+      "dynasty_value": 4832,
+      "position_rank": "RB5",
+      "value_change_30d": -343,
+      "current_manager": "hogantim97",
+      "league_draft_pick": "1.01",
+      "drafted_by": "hogantim97",
+      "points_this_week": 0.0,
+      "season_points": 47.9
+     },
+     {
+      "player": "Fernando Mendoza",
+      "position": "QB",
+      "nfl_team": "LV",
+      "age": 23,
+      "dynasty_value": 3991,
+      "position_rank": "QB13",
+      "value_change_30d": 300,
+      "current_manager": "JoshWileczek",
+      "league_draft_pick": "1.04",
+      "drafted_by": "JoshWileczek",
+      "points_this_week": 13.92,
+      "season_points": 16.14
+     },
+     {
+      "player": "Carnell Tate",
+      "position": "WR",
+      "nfl_team": "TEN",
+      "age": 21,
+      "dynasty_value": 3287,
+      "position_rank": "WR20",
+      "value_change_30d": -158,
+      "current_manager": "kingdemi",
+      "league_draft_pick": "1.03",
+      "drafted_by": "kingdemi",
+      "points_this_week": 0.0,
+      "season_points": 60.3
+     }
+    ],
+    "best_week": [
+     {
+      "player": "Emmett Johnson",
+      "position": "RB",
+      "nfl_team": "KC",
+      "age": 23,
+      "dynasty_value": 2159,
+      "position_rank": "RB28",
+      "value_change_30d": 569,
+      "current_manager": "stehr",
+      "league_draft_pick": "3.04",
+      "drafted_by": "stehr",
+      "points_this_week": 32.1,
+      "season_points": 85.9
+     },
+     {
+      "player": "Fernando Mendoza",
+      "position": "QB",
+      "nfl_team": "LV",
+      "age": 23,
+      "dynasty_value": 3991,
+      "position_rank": "QB13",
+      "value_change_30d": 300,
+      "current_manager": "JoshWileczek",
+      "league_draft_pick": "1.04",
+      "drafted_by": "JoshWileczek",
+      "points_this_week": 13.92,
+      "season_points": 16.14
+     }
+    ]
+   },
+   "2025": {
+    "biggest_risers_30d": [
+     {
+      "player": "Luther Burden III",
+      "position": "WR",
+      "nfl_team": "CHI",
+      "age": 22,
+      "dynasty_value": 4671,
+      "position_rank": "WR10",
+      "value_change_30d": 1605,
+      "current_manager": "pjh5473",
+      "league_draft_pick": "2.08",
+      "drafted_by": "pjh5473",
+      "points_this_week": 0.0,
+      "season_points": 111.8
+     },
+     {
+      "player": "Matthew Golden",
+      "position": "WR",
+      "nfl_team": "GB",
+      "age": 23,
+      "dynasty_value": 5099,
+      "position_rank": "WR8",
+      "value_change_30d": 1593,
+      "current_manager": "Djax818",
+      "league_draft_pick": "2.03",
+      "drafted_by": "Djax818",
+      "points_this_week": 9.5,
+      "season_points": 146.9
+     },
+     {
+      "player": "Bhayshul Tuten",
+      "position": "RB",
+      "nfl_team": "JAX",
+      "age": 23,
+      "dynasty_value": 4037,
+      "position_rank": "RB10",
+      "value_change_30d": 809,
+      "current_manager": "stehr",
+      "league_draft_pick": "3.02",
+      "drafted_by": "stehr",
+      "points_this_week": 18.8,
+      "season_points": 138.5
+     }
+    ],
+    "biggest_fallers_30d": [
+     {
+      "player": "Ashton Jeanty",
+      "position": "RB",
+      "nfl_team": "LV",
+      "age": 23,
+      "dynasty_value": 4122,
+      "position_rank": "RB9",
+      "value_change_30d": -2024,
+      "current_manager": "pjh5473",
+      "league_draft_pick": "1.01",
+      "drafted_by": "kingdemi",
+      "points_this_week": 8.4,
+      "season_points": 126.7
+     },
+     {
+      "player": "Travis Hunter",
+      "position": "DB",
+      "nfl_team": "JAX",
+      "age": 23,
+      "dynasty_value": 818,
+      "position_rank": "DB86",
+      "value_change_30d": -669,
+      "current_manager": "JoshWileczek",
+      "league_draft_pick": "1.05",
+      "drafted_by": "JoshWileczek",
+      "points_this_week": 2.9,
+      "season_points": 18.7
+     },
+     {
+      "player": "Tyler Warren",
+      "position": "TE",
+      "nfl_team": "IND",
+      "age": 24,
+      "dynasty_value": 3215,
+      "position_rank": "TE6",
+      "value_change_30d": -628,
+      "current_manager": "Cwmessi",
+      "league_draft_pick": "1.07",
+      "drafted_by": "Cwmessi",
+      "points_this_week": 2.4,
+      "season_points": 86.5
+     }
+    ],
+    "most_valuable": [
+     {
+      "player": "Matthew Golden",
+      "position": "WR",
+      "nfl_team": "GB",
+      "age": 23,
+      "dynasty_value": 5099,
+      "position_rank": "WR8",
+      "value_change_30d": 1593,
+      "current_manager": "Djax818",
+      "league_draft_pick": "2.03",
+      "drafted_by": "Djax818",
+      "points_this_week": 9.5,
+      "season_points": 146.9
+     },
+     {
+      "player": "Luther Burden III",
+      "position": "WR",
+      "nfl_team": "CHI",
+      "age": 22,
+      "dynasty_value": 4671,
+      "position_rank": "WR10",
+      "value_change_30d": 1605,
+      "current_manager": "pjh5473",
+      "league_draft_pick": "2.08",
+      "drafted_by": "pjh5473",
+      "points_this_week": 0.0,
+      "season_points": 111.8
+     },
+     {
+      "player": "Tetairoa McMillan",
+      "position": "WR",
+      "nfl_team": "CAR",
+      "age": 23,
+      "dynasty_value": 4128,
+      "position_rank": "WR14",
+      "value_change_30d": -542,
+      "current_manager": "Djax818",
+      "league_draft_pick": "1.03",
+      "drafted_by": "Djax818",
+      "points_this_week": 5.0,
+      "season_points": 106.5
+     }
+    ],
+    "best_week": [
+     {
+      "player": "Cam Skattebo",
+      "position": "RB",
+      "nfl_team": "NYG",
+      "age": 24,
+      "dynasty_value": 2789,
+      "position_rank": "RB21",
+      "value_change_30d": 421,
+      "current_manager": "JoshWileczek",
+      "league_draft_pick": "2.05",
+      "drafted_by": "JoshWileczek",
+      "points_this_week": 25.7,
+      "season_points": 90.6
+     },
+     {
+      "player": "Cam Ward",
+      "position": "QB",
+      "nfl_team": "TEN",
+      "age": 24,
+      "dynasty_value": 2667,
+      "position_rank": "QB21",
+      "value_change_30d": 337,
+      "current_manager": "kingdemi",
+      "league_draft_pick": "2.01",
+      "drafted_by": "kingdemi",
+      "points_this_week": 19.14,
+      "season_points": 119.66
+     }
+    ]
+   }
+  }
+ },
+ "dynasty_market": {
+  "note": "30-day value movement for players on league rosters (FantasyCalc, superflex).",
+  "biggest_risers": [
+   {
+    "player": "Luther Burden III",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "age": 22,
+    "dynasty_value": 4671,
+    "position_rank": "WR10",
+    "value_change_30d": 1605,
+    "current_manager": "pjh5473"
+   },
+   {
+    "player": "Matthew Golden",
+    "position": "WR",
+    "nfl_team": "GB",
+    "age": 23,
+    "dynasty_value": 5099,
+    "position_rank": "WR8",
+    "value_change_30d": 1593,
+    "current_manager": "Djax818"
+   },
+   {
+    "player": "Joe Burrow",
+    "position": "QB",
+    "nfl_team": "CIN",
+    "age": 29,
+    "dynasty_value": 7683,
+    "position_rank": "QB2",
+    "value_change_30d": 1590,
+    "current_manager": "hogantim97"
+   },
+   {
+    "player": "Jonah Coleman",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "age": 23,
+    "dynasty_value": 3099,
+    "position_rank": "RB18",
+    "value_change_30d": 1288,
+    "current_manager": "kingdemi"
+   },
+   {
+    "player": "Tee Higgins",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "age": 27,
+    "dynasty_value": 4221,
+    "position_rank": "WR13",
+    "value_change_30d": 1091,
+    "current_manager": "stehr"
+   }
+  ],
+  "biggest_fallers": [
+   {
+    "player": "Ashton Jeanty",
+    "position": "RB",
+    "nfl_team": "LV",
+    "age": 23,
+    "dynasty_value": 4122,
+    "position_rank": "RB9",
+    "value_change_30d": -2024,
+    "current_manager": "pjh5473"
+   },
+   {
+    "player": "Lamar Jackson",
+    "position": "QB",
+    "nfl_team": "BAL",
+    "age": 29,
+    "dynasty_value": 5018,
+    "position_rank": "QB9",
+    "value_change_30d": -1591,
+    "current_manager": "stehr"
+   },
+   {
+    "player": "Derrick Henry",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "age": 32,
+    "dynasty_value": 2470,
+    "position_rank": "RB23",
+    "value_change_30d": -1358,
+    "current_manager": "pjh5473"
+   },
+   {
+    "player": "A.J. Brown",
+    "position": "WR",
+    "nfl_team": "NE",
+    "age": 29,
+    "dynasty_value": 1982,
+    "position_rank": "WR35",
+    "value_change_30d": -1236,
+    "current_manager": "kingdemi"
+   },
+   {
+    "player": "Jonathan Taylor",
+    "position": "RB",
+    "nfl_team": "IND",
+    "age": 27,
+    "dynasty_value": 4518,
+    "position_rank": "RB7",
+    "value_change_30d": -1233,
+    "current_manager": "aaronyuhas"
+   }
+  ],
+  "sell_high_candidates": [
+   {
+    "player": "Joe Burrow",
+    "position": "QB",
+    "nfl_team": "CIN",
+    "age": 29,
+    "dynasty_value": 7683,
+    "position_rank": "QB2",
+    "value_change_30d": 1590,
+    "current_manager": "hogantim97"
+   },
+   {
+    "player": "Jordan Love",
+    "position": "QB",
+    "nfl_team": "GB",
+    "age": 28,
+    "dynasty_value": 4958,
+    "position_rank": "QB10",
+    "value_change_30d": 759,
+    "current_manager": "rfrancella97"
+   },
+   {
+    "player": "Blake Corum",
+    "position": "RB",
+    "nfl_team": "LAR",
+    "age": 26,
+    "dynasty_value": 2379,
+    "position_rank": "RB25",
+    "value_change_30d": 656,
+    "current_manager": "Djax818"
+   }
+  ],
+  "buy_low_candidates": [
+   {
+    "player": "Ashton Jeanty",
+    "position": "RB",
+    "nfl_team": "LV",
+    "age": 23,
+    "dynasty_value": 4122,
+    "position_rank": "RB9",
+    "value_change_30d": -2024,
+    "current_manager": "pjh5473"
+   },
+   {
+    "player": "Bryce Young",
+    "position": "QB",
+    "nfl_team": "CAR",
+    "age": 25,
+    "dynasty_value": 3130,
+    "position_rank": "QB19",
+    "value_change_30d": -1116,
+    "current_manager": "JoshWileczek"
+   },
+   {
+    "player": "Puka Nacua",
+    "position": "WR",
+    "nfl_team": "LAR",
+    "age": 25,
+    "dynasty_value": 7176,
+    "position_rank": "WR4",
+    "value_change_30d": -891,
+    "current_manager": "cbrech"
+   }
+  ],
+  "candidate_rules": "Sell-high: rising value on an aging player (RB 26+, others 28+) worth 2,000+. Buy-low: falling value on a player 25 or younger who is still worth 2,500+."
+ },
+ "next_week": {
+  "week": 11,
+  "is_playoffs": false,
+  "marquee_matchup": {
+   "teams": [
+    {
+     "manager": "Djax818",
+     "record": "17-3",
+     "seed": 1,
+     "power_rank": 1,
+     "avg_points": 146.16,
+     "last3_avg_points": 149.8,
+     "form_projection": 147.98
+    },
+    {
+     "manager": "cbrech",
+     "record": "14-6",
+     "seed": 2,
+     "power_rank": 2,
+     "avg_points": 144.98,
+     "last3_avg_points": 143.41,
+     "form_projection": 144.19
+    }
+   ],
+   "form_favorite": "Djax818",
+   "form_projection_edge": 3.79,
+   "combined_power_rank": 3
+  },
+  "other_matchups": [
+   {
+    "teams": [
+     {
+      "manager": "stehr",
+      "record": "12-8",
+      "seed": 5,
+      "power_rank": 3,
+      "avg_points": 138.73,
+      "last3_avg_points": 141.87,
+      "form_projection": 140.3
+     },
+     {
+      "manager": "JoshWileczek",
+      "record": "13-7",
+      "seed": 3,
+      "power_rank": 4,
+      "avg_points": 140.76,
+      "last3_avg_points": 122.63,
+      "form_projection": 131.69
+     }
+    ],
+    "form_favorite": "stehr",
+    "form_projection_edge": 8.61,
+    "combined_power_rank": 7
+   },
+   {
+    "teams": [
+     {
+      "manager": "kingdemi",
+      "record": "10-10",
+      "seed": 6,
+      "power_rank": 6,
+      "avg_points": 123.8,
+      "last3_avg_points": 129.32,
+      "form_projection": 126.56
+     },
+     {
+      "manager": "rfrancella97",
+      "record": "8-12",
+      "seed": 7,
+      "power_rank": 9,
+      "avg_points": 113.7,
+      "last3_avg_points": 122.42,
+      "form_projection": 118.06
+     }
+    ],
+    "form_favorite": "kingdemi",
+    "form_projection_edge": 8.5,
+    "combined_power_rank": 15
+   },
+   {
+    "teams": [
+     {
+      "manager": "hogantim97",
+      "record": "7-13",
+      "seed": 8,
+      "power_rank": 7,
+      "avg_points": 118.88,
+      "last3_avg_points": 133.82,
+      "form_projection": 126.35
+     },
+     {
+      "manager": "aaronyuhas",
+      "record": "6-14",
+      "seed": 9,
+      "power_rank": 8,
+      "avg_points": 121.9,
+      "last3_avg_points": 103.97,
+      "form_projection": 112.94
+     }
+    ],
+    "form_favorite": "hogantim97",
+    "form_projection_edge": 13.41,
+    "combined_power_rank": 15
+   },
+   {
+    "teams": [
+     {
+      "manager": "Cwmessi",
+      "record": "1-19",
+      "seed": 10,
+      "power_rank": 10,
+      "avg_points": 85.96,
+      "last3_avg_points": 68.06,
+      "form_projection": 77.01
+     },
+     {
+      "manager": "pjh5473",
+      "record": "12-8",
+      "seed": 4,
+      "power_rank": 5,
+      "avg_points": 142.56,
+      "last3_avg_points": 135.31,
+      "form_projection": 138.94
+     }
+    ],
+    "form_favorite": "pjh5473",
+    "form_projection_edge": 61.93,
+    "combined_power_rank": 15
+   }
+  ],
+  "note": "form_projection = average of season scoring average and last-3-weeks average. It is a simple form guide, not a real projection."
+ },
+ "seasonal": {
+  "trade_deadline": {
+   "deadline_week": 11,
+   "upcoming_week": 11,
+   "weeks_until_deadline": 0,
+   "is_deadline_week": true
+  }
+ },
+ "trade_ledger": [
+  {
+   "season": "2024",
+   "week": 8,
+   "date": "2024-10-23",
+   "sides": [
+    {
+     "manager": "aaronyuhas",
+     "received": [
+      {
+       "asset": "Courtland Sutton",
+       "type": "player",
+       "position": "WR",
+       "value": 1209
+      },
+      {
+       "asset": "Justin Herbert",
+       "type": "player",
+       "position": "QB",
+       "value": 3299
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Russell Wilson",
+       "type": "player",
+       "position": "QB",
+       "value": 0
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4508,
+     "value_given": 0,
+     "net_value": 4508,
+     "grade": "A+"
+    },
+    {
+     "manager": "cbrech",
+     "received": [
+      {
+       "asset": "Russell Wilson",
+       "type": "player",
+       "position": "QB",
+       "value": 0
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Courtland Sutton",
+       "type": "player",
+       "position": "WR",
+       "value": 1209
+      },
+      {
+       "asset": "Justin Herbert",
+       "type": "player",
+       "position": "QB",
+       "value": 3299
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 0,
+     "value_given": 4508,
+     "net_value": -4508,
+     "grade": "F"
+    }
+   ]
+  },
+  {
+   "season": "2024",
+   "week": 11,
+   "date": "2024-11-19",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Brandon Aiyuk",
+       "type": "player",
+       "position": "WR",
+       "value": 740
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Cooper Kupp",
+       "type": "player",
+       "position": "WR",
+       "value": 424
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 740,
+     "value_given": 424,
+     "net_value": 316,
+     "grade": "B"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Cooper Kupp",
+       "type": "player",
+       "position": "WR",
+       "value": 424
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Brandon Aiyuk",
+       "type": "player",
+       "position": "WR",
+       "value": 740
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 424,
+     "value_given": 740,
+     "net_value": -316,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2024",
+   "week": 11,
+   "date": "2024-11-14",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Braelon Allen",
+       "type": "player",
+       "position": "RB",
+       "value": 1726
+      },
+      {
+       "asset": "Cooper Kupp",
+       "type": "player",
+       "position": "WR",
+       "value": 424
+      },
+      {
+       "asset": "2025 1st-round pick (originally rfrancella97's), which became TreVeyon Henderson",
+       "type": "pick_used",
+       "became": "TreVeyon Henderson",
+       "value": 1923
+      },
+      {
+       "asset": "2026 1st-round pick (originally rfrancella97's), which became KC Concepcion Jr.",
+       "type": "pick_used",
+       "became": "KC Concepcion Jr.",
+       "value": 2615
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Ja'Marr Chase",
+       "type": "player",
+       "position": "WR",
+       "value": 8913
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 6688,
+     "value_given": 8913,
+     "net_value": -2225,
+     "grade": "C"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Ja'Marr Chase",
+       "type": "player",
+       "position": "WR",
+       "value": 8913
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Braelon Allen",
+       "type": "player",
+       "position": "RB",
+       "value": 1726
+      },
+      {
+       "asset": "Cooper Kupp",
+       "type": "player",
+       "position": "WR",
+       "value": 424
+      },
+      {
+       "asset": "2025 1st-round pick (originally rfrancella97's), which became TreVeyon Henderson",
+       "type": "pick_used",
+       "became": "TreVeyon Henderson",
+       "value": 1923
+      },
+      {
+       "asset": "2026 1st-round pick (originally rfrancella97's), which became KC Concepcion Jr.",
+       "type": "pick_used",
+       "became": "KC Concepcion Jr.",
+       "value": 2615
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 8913,
+     "value_given": 6688,
+     "net_value": 2225,
+     "grade": "A"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 1,
+   "date": "2025-09-05",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Tank Bigsby",
+       "type": "player",
+       "position": "RB",
+       "value": 796
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Javonte Williams",
+       "type": "player",
+       "position": "RB",
+       "value": 3670
+      },
+      {
+       "asset": "2026 2nd-round pick (originally stehr's), which became Ty Simpson",
+       "type": "pick_used",
+       "became": "Ty Simpson",
+       "value": 2112
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 796,
+     "value_given": 5782,
+     "net_value": -4986,
+     "grade": "F"
+    },
+    {
+     "manager": "kingdemi",
+     "received": [
+      {
+       "asset": "Javonte Williams",
+       "type": "player",
+       "position": "RB",
+       "value": 3670
+      },
+      {
+       "asset": "2026 2nd-round pick (originally stehr's), which became Ty Simpson",
+       "type": "pick_used",
+       "became": "Ty Simpson",
+       "value": 2112
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Tank Bigsby",
+       "type": "player",
+       "position": "RB",
+       "value": 796
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 5782,
+     "value_given": 796,
+     "net_value": 4986,
+     "grade": "A+"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 4,
+   "date": "2025-09-27",
+   "sides": [
+    {
+     "manager": "hogantim97",
+     "received": [
+      {
+       "asset": "Rashee Rice",
+       "type": "player",
+       "position": "WR",
+       "value": 2806
+      },
+      {
+       "asset": "Quinshon Judkins",
+       "type": "player",
+       "position": "RB",
+       "value": 2662
+      },
+      {
+       "asset": "2026 1st-round pick (originally cbrech's), which became Jordyn Tyson",
+       "type": "pick_used",
+       "became": "Jordyn Tyson",
+       "value": 3218
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Alvin Kamara",
+       "type": "player",
+       "position": "RB",
+       "value": 1031
+      },
+      {
+       "asset": "Justin Jefferson",
+       "type": "player",
+       "position": "WR",
+       "value": 5818
+      },
+      {
+       "asset": "Isaiah Likely",
+       "type": "player",
+       "position": "TE",
+       "value": 3452
+      },
+      {
+       "asset": "2026 2nd-round pick (originally hogantim97's), which became Kenyon Sadiq",
+       "type": "pick_used",
+       "became": "Kenyon Sadiq",
+       "value": 2077
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 8686,
+     "value_given": 12378,
+     "net_value": -3692,
+     "grade": "D"
+    },
+    {
+     "manager": "cbrech",
+     "received": [
+      {
+       "asset": "Alvin Kamara",
+       "type": "player",
+       "position": "RB",
+       "value": 1031
+      },
+      {
+       "asset": "Justin Jefferson",
+       "type": "player",
+       "position": "WR",
+       "value": 5818
+      },
+      {
+       "asset": "Isaiah Likely",
+       "type": "player",
+       "position": "TE",
+       "value": 3452
+      },
+      {
+       "asset": "2026 2nd-round pick (originally hogantim97's), which became Kenyon Sadiq",
+       "type": "pick_used",
+       "became": "Kenyon Sadiq",
+       "value": 2077
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Rashee Rice",
+       "type": "player",
+       "position": "WR",
+       "value": 2806
+      },
+      {
+       "asset": "Quinshon Judkins",
+       "type": "player",
+       "position": "RB",
+       "value": 2662
+      },
+      {
+       "asset": "2026 1st-round pick (originally cbrech's), which became Jordyn Tyson",
+       "type": "pick_used",
+       "became": "Jordyn Tyson",
+       "value": 3218
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 12378,
+     "value_given": 8686,
+     "net_value": 3692,
+     "grade": "A+"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 4,
+   "date": "2025-09-25",
+   "sides": [
+    {
+     "manager": "kingdemi",
+     "received": [
+      {
+       "asset": "Jaylen Warren",
+       "type": "player",
+       "position": "RB",
+       "value": 2890
+      },
+      {
+       "asset": "2026 1st-round pick (originally Djax818's), which became Nicholas Singleton",
+       "type": "pick_used",
+       "became": "Nicholas Singleton",
+       "value": 940
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Christian McCaffrey",
+       "type": "player",
+       "position": "RB",
+       "value": 4809
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 3830,
+     "value_given": 4809,
+     "net_value": -979,
+     "grade": "C+"
+    },
+    {
+     "manager": "Djax818",
+     "received": [
+      {
+       "asset": "Christian McCaffrey",
+       "type": "player",
+       "position": "RB",
+       "value": 4809
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Jaylen Warren",
+       "type": "player",
+       "position": "RB",
+       "value": 2890
+      },
+      {
+       "asset": "2026 1st-round pick (originally Djax818's), which became Nicholas Singleton",
+       "type": "pick_used",
+       "became": "Nicholas Singleton",
+       "value": 940
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4809,
+     "value_given": 3830,
+     "net_value": 979,
+     "grade": "A-"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 5,
+   "date": "2025-10-01",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Jaxson Dart",
+       "type": "player",
+       "position": "QB",
+       "value": 3674
+      },
+      {
+       "asset": "2026 2nd-round pick (originally rfrancella97's), which became Zachariah Branch",
+       "type": "pick_used",
+       "became": "Zachariah Branch",
+       "value": 683
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Travis Etienne Jr.",
+       "type": "player",
+       "position": "RB",
+       "value": 1761
+      },
+      {
+       "asset": "2026 3rd-round pick (originally stehr's), which became Max Klare",
+       "type": "pick_used",
+       "became": "Max Klare",
+       "value": 334
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4357,
+     "value_given": 2095,
+     "net_value": 2262,
+     "grade": "A"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Travis Etienne Jr.",
+       "type": "player",
+       "position": "RB",
+       "value": 1761
+      },
+      {
+       "asset": "2026 3rd-round pick (originally stehr's), which became Max Klare",
+       "type": "pick_used",
+       "became": "Max Klare",
+       "value": 334
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Jaxson Dart",
+       "type": "player",
+       "position": "QB",
+       "value": 3674
+      },
+      {
+       "asset": "2026 2nd-round pick (originally rfrancella97's), which became Zachariah Branch",
+       "type": "pick_used",
+       "became": "Zachariah Branch",
+       "value": 683
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2095,
+     "value_given": 4357,
+     "net_value": -2262,
+     "grade": "C"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 7,
+   "date": "2025-10-20",
+   "sides": [
+    {
+     "manager": "kingdemi",
+     "received": [
+      {
+       "asset": "A.J. Brown",
+       "type": "player",
+       "position": "WR",
+       "value": 1982
+      },
+      {
+       "asset": "2026 1st-round pick (originally pjh5473's), which became Jonah Coleman",
+       "type": "pick_used",
+       "became": "Jonah Coleman",
+       "value": 3099
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Ashton Jeanty",
+       "type": "player",
+       "position": "RB",
+       "value": 4122
+      },
+      {
+       "asset": "2026 3rd-round pick (originally kingdemi's), which became Skyler Bell",
+       "type": "pick_used",
+       "became": "Skyler Bell",
+       "value": 467
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 5081,
+     "value_given": 4589,
+     "net_value": 492,
+     "grade": "B"
+    },
+    {
+     "manager": "pjh5473",
+     "received": [
+      {
+       "asset": "Ashton Jeanty",
+       "type": "player",
+       "position": "RB",
+       "value": 4122
+      },
+      {
+       "asset": "2026 3rd-round pick (originally kingdemi's), which became Skyler Bell",
+       "type": "pick_used",
+       "became": "Skyler Bell",
+       "value": 467
+      }
+     ],
+     "gave": [
+      {
+       "asset": "A.J. Brown",
+       "type": "player",
+       "position": "WR",
+       "value": 1982
+      },
+      {
+       "asset": "2026 1st-round pick (originally pjh5473's), which became Jonah Coleman",
+       "type": "pick_used",
+       "became": "Jonah Coleman",
+       "value": 3099
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4589,
+     "value_given": 5081,
+     "net_value": -492,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 8,
+   "date": "2025-10-28",
+   "sides": [
+    {
+     "manager": "kingdemi",
+     "received": [
+      {
+       "asset": "Christian Watson",
+       "type": "player",
+       "position": "WR",
+       "value": 4366
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Travis Kelce",
+       "type": "player",
+       "position": "TE",
+       "value": 1539
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4366,
+     "value_given": 1539,
+     "net_value": 2827,
+     "grade": "A+"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Travis Kelce",
+       "type": "player",
+       "position": "TE",
+       "value": 1539
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Christian Watson",
+       "type": "player",
+       "position": "WR",
+       "value": 4366
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 1539,
+     "value_given": 4366,
+     "net_value": -2827,
+     "grade": "D"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 8,
+   "date": "2025-10-23",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "2026 3rd-round pick (originally JoshWileczek's), which became Emmett Johnson",
+       "type": "pick_used",
+       "became": "Emmett Johnson",
+       "value": 2159
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Dalton Schultz",
+       "type": "player",
+       "position": "TE",
+       "value": 887
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2159,
+     "value_given": 887,
+     "net_value": 1272,
+     "grade": "A-"
+    },
+    {
+     "manager": "JoshWileczek",
+     "received": [
+      {
+       "asset": "Dalton Schultz",
+       "type": "player",
+       "position": "TE",
+       "value": 887
+      }
+     ],
+     "gave": [
+      {
+       "asset": "2026 3rd-round pick (originally JoshWileczek's), which became Emmett Johnson",
+       "type": "pick_used",
+       "became": "Emmett Johnson",
+       "value": 2159
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 887,
+     "value_given": 2159,
+     "net_value": -1272,
+     "grade": "C+"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 8,
+   "date": "2025-10-22",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "2026 3rd-round pick (originally stehr's), which became Max Klare",
+       "type": "pick_used",
+       "became": "Max Klare",
+       "value": 334
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Zach Ertz",
+       "type": "player",
+       "position": "TE",
+       "value": 0
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 334,
+     "value_given": 0,
+     "net_value": 334,
+     "grade": "B"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Zach Ertz",
+       "type": "player",
+       "position": "TE",
+       "value": 0
+      }
+     ],
+     "gave": [
+      {
+       "asset": "2026 3rd-round pick (originally stehr's), which became Max Klare",
+       "type": "pick_used",
+       "became": "Max Klare",
+       "value": 334
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 0,
+     "value_given": 334,
+     "net_value": -334,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2025",
+   "week": 11,
+   "date": "2025-11-17",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Saquon Barkley",
+       "type": "player",
+       "position": "RB",
+       "value": 2452
+      }
+     ],
+     "gave": [
+      {
+       "asset": "2026 1st-round pick (originally stehr's), which became Omar Cooper Jr.",
+       "type": "pick_used",
+       "became": "Omar Cooper Jr.",
+       "value": 2178
+      },
+      {
+       "asset": "2026 2nd-round pick (originally rfrancella97's), which became Zachariah Branch",
+       "type": "pick_used",
+       "became": "Zachariah Branch",
+       "value": 683
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2452,
+     "value_given": 2861,
+     "net_value": -409,
+     "grade": "B"
+    },
+    {
+     "manager": "Cwmessi",
+     "received": [
+      {
+       "asset": "2026 1st-round pick (originally stehr's), which became Omar Cooper Jr.",
+       "type": "pick_used",
+       "became": "Omar Cooper Jr.",
+       "value": 2178
+      },
+      {
+       "asset": "2026 2nd-round pick (originally rfrancella97's), which became Zachariah Branch",
+       "type": "pick_used",
+       "became": "Zachariah Branch",
+       "value": 683
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Saquon Barkley",
+       "type": "player",
+       "position": "RB",
+       "value": 2452
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2861,
+     "value_given": 2452,
+     "net_value": 409,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 1,
+   "date": "2026-08-27",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "2027 3rd-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 1040
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Kirk Cousins",
+       "type": "player",
+       "position": "QB",
+       "value": 2047
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 1040,
+     "value_given": 2047,
+     "net_value": -1007,
+     "grade": "C+"
+    },
+    {
+     "manager": "JoshWileczek",
+     "received": [
+      {
+       "asset": "Kirk Cousins",
+       "type": "player",
+       "position": "QB",
+       "value": 2047
+      }
+     ],
+     "gave": [
+      {
+       "asset": "2027 3rd-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 1040
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2047,
+     "value_given": 1040,
+     "net_value": 1007,
+     "grade": "A-"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "date": "2026-09-26",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Stefon Diggs",
+       "type": "player",
+       "position": "WR",
+       "value": 1555
+      },
+      {
+       "asset": "Lamar Jackson",
+       "type": "player",
+       "position": "QB",
+       "value": 5018
+      },
+      {
+       "asset": "Deebo Samuel Sr.",
+       "type": "player",
+       "position": "WR",
+       "value": 1429
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Adonai Mitchell",
+       "type": "player",
+       "position": "WR",
+       "value": 1344
+      },
+      {
+       "asset": "KC Concepcion Jr.",
+       "type": "player",
+       "position": "WR",
+       "value": 2615
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 2572
+      },
+      {
+       "asset": "2027 1st-round pick, projected mid (originally stehr's)",
+       "type": "pick",
+       "value": 3303
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 8002,
+     "value_given": 9834,
+     "net_value": -1832,
+     "grade": "C"
+    },
+    {
+     "manager": "Cwmessi",
+     "received": [
+      {
+       "asset": "Adonai Mitchell",
+       "type": "player",
+       "position": "WR",
+       "value": 1344
+      },
+      {
+       "asset": "KC Concepcion Jr.",
+       "type": "player",
+       "position": "WR",
+       "value": 2615
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 2572
+      },
+      {
+       "asset": "2027 1st-round pick, projected mid (originally stehr's)",
+       "type": "pick",
+       "value": 3303
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Stefon Diggs",
+       "type": "player",
+       "position": "WR",
+       "value": 1555
+      },
+      {
+       "asset": "Lamar Jackson",
+       "type": "player",
+       "position": "QB",
+       "value": 5018
+      },
+      {
+       "asset": "Deebo Samuel Sr.",
+       "type": "player",
+       "position": "WR",
+       "value": 1429
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 9834,
+     "value_given": 8002,
+     "net_value": 1832,
+     "grade": "A"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "date": "2026-09-25",
+   "sides": [
+    {
+     "manager": "Djax818",
+     "received": [
+      {
+       "asset": "Chris Olave",
+       "type": "player",
+       "position": "WR",
+       "value": 4262
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Rome Odunze",
+       "type": "player",
+       "position": "WR",
+       "value": 2468
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally Djax818's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4262,
+     "value_given": 5040,
+     "net_value": -778,
+     "grade": "C+"
+    },
+    {
+     "manager": "Cwmessi",
+     "received": [
+      {
+       "asset": "Rome Odunze",
+       "type": "player",
+       "position": "WR",
+       "value": 2468
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally Djax818's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Chris Olave",
+       "type": "player",
+       "position": "WR",
+       "value": 4262
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 5040,
+     "value_given": 4262,
+     "net_value": 778,
+     "grade": "A-"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "date": "2026-09-23",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Jayden Daniels",
+       "type": "player",
+       "position": "QB",
+       "value": 5928
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Jaxson Dart",
+       "type": "player",
+       "position": "QB",
+       "value": 3674
+      },
+      {
+       "asset": "Bryce Young",
+       "type": "player",
+       "position": "QB",
+       "value": 3130
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 8500,
+     "value_given": 6804,
+     "net_value": 1696,
+     "grade": "A"
+    },
+    {
+     "manager": "JoshWileczek",
+     "received": [
+      {
+       "asset": "Jaxson Dart",
+       "type": "player",
+       "position": "QB",
+       "value": 3674
+      },
+      {
+       "asset": "Bryce Young",
+       "type": "player",
+       "position": "QB",
+       "value": 3130
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Jayden Daniels",
+       "type": "player",
+       "position": "QB",
+       "value": 5928
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally JoshWileczek's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 6804,
+     "value_given": 8500,
+     "net_value": -1696,
+     "grade": "C"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "date": "2026-09-30",
+   "sides": [
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "2027 2nd-round pick, projected mid (originally rfrancella97's)",
+       "type": "pick",
+       "value": 1754
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Jacory Croskey-Merritt",
+       "type": "player",
+       "position": "RB",
+       "value": 1223
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 1754,
+     "value_given": 1223,
+     "net_value": 531,
+     "grade": "B"
+    },
+    {
+     "manager": "rfrancella97",
+     "received": [
+      {
+       "asset": "Jacory Croskey-Merritt",
+       "type": "player",
+       "position": "RB",
+       "value": 1223
+      }
+     ],
+     "gave": [
+      {
+       "asset": "2027 2nd-round pick, projected mid (originally rfrancella97's)",
+       "type": "pick",
+       "value": 1754
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 1223,
+     "value_given": 1754,
+     "net_value": -531,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "date": "2026-10-29",
+   "sides": [
+    {
+     "manager": "kingdemi",
+     "received": [
+      {
+       "asset": "Kenyon Sadiq",
+       "type": "player",
+       "position": "TE",
+       "value": 2077
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally cbrech's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Nico Collins",
+       "type": "player",
+       "position": "WR",
+       "value": 4124
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4649,
+     "value_given": 4124,
+     "net_value": 525,
+     "grade": "B"
+    },
+    {
+     "manager": "cbrech",
+     "received": [
+      {
+       "asset": "Nico Collins",
+       "type": "player",
+       "position": "WR",
+       "value": 4124
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Kenyon Sadiq",
+       "type": "player",
+       "position": "TE",
+       "value": 2077
+      },
+      {
+       "asset": "2027 1st-round pick, projected late (originally cbrech's)",
+       "type": "pick",
+       "value": 2572
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 4124,
+     "value_given": 4649,
+     "net_value": -525,
+     "grade": "B"
+    }
+   ]
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "date": "2026-10-28",
+   "sides": [
+    {
+     "manager": "hogantim97",
+     "received": [
+      {
+       "asset": "Omarion Hampton",
+       "type": "player",
+       "position": "RB",
+       "value": 2900
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Quinshon Judkins",
+       "type": "player",
+       "position": "RB",
+       "value": 2662
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2900,
+     "value_given": 2662,
+     "net_value": 238,
+     "grade": "B"
+    },
+    {
+     "manager": "stehr",
+     "received": [
+      {
+       "asset": "Quinshon Judkins",
+       "type": "player",
+       "position": "RB",
+       "value": 2662
+      }
+     ],
+     "gave": [
+      {
+       "asset": "Omarion Hampton",
+       "type": "player",
+       "position": "RB",
+       "value": 2900
+      }
+     ],
+     "faab_received": 0,
+     "value_received": 2662,
+     "value_given": 2900,
+     "net_value": -238,
+     "grade": "B"
+    }
+   ]
+  }
+ ]
+}

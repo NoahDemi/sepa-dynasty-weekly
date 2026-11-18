@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEPA Dynasty Weekly</title>
+    <link>https://noahdemi.github.io/sepa-dynasty-weekly/</link>
+    <atom:link href="https://noahdemi.github.io/sepa-dynasty-weekly/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>The only podcast that knows how many points you left on your bench.</description>
+    <itunes:author>SEPA Dynasty</itunes:author>
+    <itunes:image href="https://noahdemi.github.io/sepa-dynasty-weekly/cover.jpg"/>
+    <image><url>https://noahdemi.github.io/sepa-dynasty-weekly/cover.jpg</url><title>SEPA Dynasty Weekly</title><link>https://noahdemi.github.io/sepa-dynasty-weekly/</link></image>
+    <itunes:category text="Sports"><itunes:category text="Fantasy Sports"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:block>Yes</itunes:block>
+    <lastBuildDate>Wed, 18 Nov 2026 23:14:37 +0000</lastBuildDate>
+    <item>
+      <title>Week 10: Ninety-Six Point Six Six: cbrech Flattens Cwmessi</title>
+      <description>cbrech drops a week-high 174.92 on Cwmessi in a 96.66-point demolition, rfrancella97 pulls off the upset of the week, and Djax818 stretches the win streak to eight. Plus power rankings, a deadline-week buy and sell guide, rookie risers, and a marquee one-versus-two showdown for next week.</description>
+      <itunes:summary>cbrech drops a week-high 174.92 on Cwmessi in a 96.66-point demolition, rfrancella97 pulls off the upset of the week, and Djax818 stretches the win streak to eight. Plus power rankings, a deadline-week buy and sell guide, rookie risers, and a marquee one-versus-two showdown for next week.</itunes:summary>
+      <enclosure url="https://noahdemi.github.io/sepa-dynasty-weekly/2026-week-10.mp3" length="13656461" type="audio/mpeg"/>
+      <guid isPermaLink="false">1353388654290026496-2026-week-10</guid>
+      <pubDate>Wed, 18 Nov 2026 23:13:54 +0000</pubDate>
+      <itunes:duration>00:18:52</itunes:duration>
+      <itunes:season>2026</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://noahdemi.github.io/sepa-dynasty-weekly/#2026-week-10</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+# SEPA Dynasty Weekly - configuration. Secrets live in .env, never here.
+
+show:
+  name: "SEPA Dynasty Weekly"
+  tagline: "The only podcast that knows how many points you left on your bench."
+  author: "SEPA Dynasty"
+  language: "en-us"
+  target_words: [1500, 1800]      # ~12-15 minutes on air (scores and values are slow to say)
+  words_per_minute: 120           # measured from episode 1: Mags ~113, Vinny ~132
+
+league:
+  id: "1353388654290026496"       # current season; older seasons follow previous_league_id
+  history_seasons: 2              # how many previous seasons to pull (trades, drafts)
+  rookie_classes: [2026, 2025]
+  playoff_bye_seeds: 2
+
+hosts:
+  - id: mags
+    name: Mags
+    role: "stats-driven analyst"
+    personality: >
+      Dry, precise, quietly savage. Lets the numbers do the roasting. Loves a
+      spreadsheet, a median, and a well-timed "per my earlier point." Rarely
+      raises her voice; the facts are loud enough.
+  - id: vinny
+    name: Vinny
+    role: "hot-take trash talker"
+    personality: >
+      Loud Philly sports-radio-caller energy. Overconfident predictions, holds
+      grudges about bad trades, thinks every bench blunder is a crime against
+      football. Big heart under the noise; always ends up respecting a good win.
+
+segments:                          # set false to drop a segment
+  cold_open: true
+  matchup_recaps: true
+  standings: true
+  power_rankings: true
+  transactions: true
+  rookie_watch: true
+  dynasty_market: true
+  outro: true
+  seasonal: true                   # trade deadline / playoff bracket / rookie draft preview
+
+power_rankings:
+  weights: {record: 0.40, points_for: 0.35, dynasty_value: 0.25}
+
+values:
+  url: "https://api.fantasycalc.com/values/current"
+  params: {isDynasty: "true", numQbs: 2, numTeams: 10, ppr: 0.5}
+
+llm:
+  model: "claude-opus-5-5"
+  effort: "high"
+  fact_check: true
+  # USD per million tokens, used only for the cost log
+  price_per_mtok: {input: 4.00, output: 20.00}
+
+tts:
+  provider: elevenlabs             # elevenlabs | openai
+  max_chars_per_request: 2500
+  max_retries: 5
+  elevenlabs:
+    model: "eleven_v4"              # or eleven_multilingual_v2; *_turbo / flash models cost half
+    output_format: "mp3_44100_128"
+    voices:                        # voice IDs from your ElevenLabs voice library
+      mags: "EXAVITQu4vr4xnSDxMaL"     # Sarah
+      vinny: "iP95p4xoKVk53GoZ742B"    # Chris
+    usd_per_1k_chars: 0.30         # rough USD per 1,000 plan credits; depends on your plan
+  openai:
+    model: "gpt-4o-mini-tts"
+    voices: {mags: "sage", vinny: "ash"}
+    usd_per_1k_chars: 0.015
+
+# How the hosts SAY each manager's Sleeper display name. The script and show
+# notes always use the real display_name; this only rewrites the text sent to TTS.
+pronunciations:
+  Djax818: "D-Jax"
+  pjh5473: "P-J-H"
+  hogantim97: "Hogan Tim"
+  stehr: "Stair"
+  kingdemi: "King Demi"
+  rfrancella97: "R-Francella"
+  cbrech: "C-Breck"
+  aaronyuhas: "Aaron Yuhas"
+  Cwmessi: "C-W Messi"
+  JoshWileczek: "Josh Wileczek"
+
+audio:
+  gap_ms: [220, 420]               # pause range between lines (same vs. new speaker)
+  segment_gap_ms: 700
+  loudness_lufs: -16
+  tempo: 1.0                       # 1.05-1.10 tightens the pace without re-running TTS
+  bitrate: "96k"                   # mono; plenty for speech, ~9 MB per episode
+  intro_music: "assets/intro.wav"  # swap these for your own royalty-free tracks
+  outro_music: "assets/outro.wav"
+  cover: "assets/cover.jpg"
+
+publish:
+  episodes_dir: "episodes"         # MP3s, show notes, feed.xml; also the GitHub Pages site root
+  base_url: "https://noahdemi.github.io/sepa-dynasty-weekly"
