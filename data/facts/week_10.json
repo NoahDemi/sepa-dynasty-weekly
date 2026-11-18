@@ -4,7 +4,7 @@
   "league": "SEPA Dynasty",
   "season": "2026",
   "week": 10,
-  "generated_at": "2026-11-18T22:41:39+00:00",
+  "generated_at": "2026-11-18T23:20:54+00:00",
   "format": "10-team dynasty, superflex, half-PPR, TE premium, weekly median game",
   "values_source": "FantasyCalc dynasty values (superflex, 10 teams, 0.5 PPR)"
  },
@@ -876,7 +876,7 @@
    "standings_rank": 10,
    "points_for": 859.58,
    "points_for_rank": 10,
-   "roster_dynasty_value": 66217,
+   "roster_dynasty_value": 66205,
    "dynasty_value_rank": 10,
    "top_assets": [
     "Tyler Warren (3215)",
