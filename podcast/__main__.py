@@ -20,6 +20,18 @@ def latest_local_week() -> int:
     return weeks[-1]
 
 
+def episode_exists(cfg: dict, week: int | None) -> bool:
+    """Cheap pre-check (two small API calls) so a repeat run changes nothing on disk."""
+    from .assemble import episode_slug
+    from .config import ROOT
+    league = fetch.get_json(f"{fetch.SLEEPER}/league/{cfg['league']['id']}")
+    week = week or fetch.latest_completed_week(fetch.get_json(f"{fetch.SLEEPER}/state/nfl"), league)
+    mp3 = ROOT / cfg["publish"]["episodes_dir"] / f"{episode_slug(league['season'], week)}.mp3"
+    if mp3.exists():
+        print(f"Week {week} episode already exists ({mp3.name}); nothing to do.")
+    return mp3.exists()
+
+
 def cmd_run(args) -> None:
     cfg = load_config(args.config)
     from .costs import CostLog
@@ -34,16 +46,11 @@ def cmd_run(args) -> None:
             week = args.week or latest_local_week()
             snap = json.loads(snapshot_path(week).read_text())
         else:
+            if args.skip_existing and episode_exists(cfg, args.week):
+                return
             snap, _ = fetch.run(cfg, args.week)
             week = snap["meta"]["week"]
         facts, fpath = analyze.run(snap, cfg)
-        if args.skip_existing:
-            from .assemble import episode_slug
-            from .config import ROOT
-            done = ROOT / cfg["publish"]["episodes_dir"] / f"{episode_slug(facts['meta']['season'], week)}.mp3"
-            if done.exists():
-                print(f"Week {week} episode already exists ({done.name}); nothing to do.")
-                return
         if args.facts_only:
             print(f"Facts written to {fpath}")
             return
