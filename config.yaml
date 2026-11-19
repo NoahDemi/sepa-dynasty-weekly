@@ -5,7 +5,7 @@ show:
   tagline: "The only podcast that knows how many points you left on your bench."
   author: "SEPA Dynasty"
   language: "en-us"
-  target_words: [1500, 1800]      # ~12-15 minutes on air (scores and values are slow to say)
+  target_words: [650, 850]        # ~5-7 minutes on air (scores and values are slow to say)
   words_per_minute: 120           # measured from episode 1: Mags ~113, Vinny ~132
 
 league:
@@ -15,13 +15,13 @@ league:
   playoff_bye_seeds: 2
 
 hosts:
-  - id: mags
-    name: Mags
+  - id: doc
+    name: Doc
     role: "stats-driven analyst"
     personality: >
       Dry, precise, quietly savage. Lets the numbers do the roasting. Loves a
       spreadsheet, a median, and a well-timed "per my earlier point." Rarely
-      raises her voice; the facts are loud enough.
+      raises his voice; the facts are loud enough.
   - id: vinny
     name: Vinny
     role: "hot-take trash talker"
@@ -30,16 +30,21 @@ hosts:
       grudges about bad trades, thinks every bench blunder is a crime against
       football. Big heart under the noise; always ends up respecting a good win.
 
-segments:                          # set false to drop a segment
+# The short show (5-7 min) runs the first six. The last four are long-form
+# segments from the original 15-minute format; turn them on (and raise
+# show.target_words) if you want them back. Show notes always include everything.
+segments:
   cold_open: true
-  matchup_recaps: true
-  standings: true
-  power_rankings: true
-  transactions: true
-  rookie_watch: true
-  dynasty_market: true
+  scoreboard: true                 # two or three results worth talking about, not every game
+  players_to_watch: true           # rookie standouts, breakouts, new starters
+  trades: true                     # only spoken when a trade actually happened
+  playoff_race: true
   outro: true
   seasonal: true                   # trade deadline / playoff bracket / rookie draft preview
+  matchup_recaps: false            # every matchup in detail
+  power_rankings: false            # full 10-to-1 countdown
+  rookie_watch: false              # rookie class dynasty value risers/fallers
+  dynasty_market: false            # value movers, buy-low / sell-high
 
 power_rankings:
   weights: {record: 0.40, points_for: 0.35, dynasty_value: 0.25}
@@ -63,12 +68,12 @@ tts:
     model: "eleven_v4"              # or eleven_multilingual_v2; *_turbo / flash models cost half
     output_format: "mp3_44100_128"
     voices:                        # voice IDs from your ElevenLabs voice library
-      mags: "EXAVITQu4vr4xnSDxMaL"     # Sarah
-      vinny: "iP95p4xoKVk53GoZ742B"    # Chris
+      doc: "nPczCjzI2devNBz1zQrb"      # Brian (deep, measured)
+      vinny: "iP95p4xoKVk53GoZ742B"    # Chris (casual, energetic)
     usd_per_1k_chars: 0.30         # rough USD per 1,000 plan credits; depends on your plan
   openai:
     model: "gpt-4o-mini-tts"
-    voices: {mags: "sage", vinny: "ash"}
+    voices: {doc: "onyx", vinny: "ash"}
     usd_per_1k_chars: 0.015
 
 # How the hosts SAY each manager's Sleeper display name. The script and show

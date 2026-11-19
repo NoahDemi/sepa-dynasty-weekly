@@ -168,3 +168,16 @@ def test_power_rankings_and_playoff_picture(facts):
     assert status["Djax818"] == "clinched playoff spot"   # 17 wins; only 5 teams can still reach 17
     assert status["Cwmessi"] == "eliminated"              # max 9 wins; six teams already have 10+
     assert facts["seasonal"]["trade_deadline"]["is_deadline_week"] is True
+
+
+def test_players_to_watch(facts):
+    ptw = facts["players_to_watch"]
+    rookies = {c["player"]: c for c in ptw["rookie_standouts"]}
+    ej = rookies["Emmett Johnson"]                       # 2026 rookie, 32.1 for stehr in week 10
+    assert ej["points_this_week"] == 32.1 and ej["manager"] == "stehr" and ej["started_this_week"]
+    assert ej["drafted_by"] == "stehr" and ej["league_draft_pick"] == "3.04"
+    assert all(c["is_rookie"] and c["points_this_week"] >= 10 for c in ptw["rookie_standouts"])
+    for c in ptw["breakout_games"]:
+        assert c["points_this_week"] >= 15 and (c["prior_avg_points_when_playing"] or 0) < 10
+    for c in ptw["new_starters"]:
+        assert c["started_this_week"] and c["prior_starts_in_this_league"] <= 1

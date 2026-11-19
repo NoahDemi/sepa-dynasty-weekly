@@ -4,7 +4,11 @@ An automated weekly podcast for the SEPA Dynasty fantasy football league. Every 
 league from Sleeper, computes the week's facts in code, has Claude write a two-host script from those
 facts, voices it, mixes it, and publishes an MP3 with show notes to a podcast feed.
 
-Hosts: **Mags** (stats-driven analyst) and **Vinny** (hot-take trash talker).
+Hosts: **Doc** (stats-driven analyst) and **Vinny** (hot-take trash talker). Episodes run 5-7 minutes:
+cold open, a short scoreboard (only the results worth talking about), players to watch (rookie
+standouts, breakouts, new starters), trades when there are any, the playoff race, and a look ahead.
+The longer segments (every matchup, full power rankings, rookie value watch, dynasty market) are off
+by default and can be switched back on in `config.yaml`; show notes always include all of it.
 
 ## How it works
 
@@ -66,7 +70,7 @@ Things you will most likely want to tweak:
 - **`tts.provider`**: `elevenlabs`, `openai`, or `say` (free macOS voices, useful for testing the pipeline).
 - **`assets/intro.wav`, `assets/outro.wav`, `assets/cover.jpg`**: generated placeholders. Replace the
   files with your own (delete one and it is regenerated).
-- **`segments`**: turn any segment off.
+- **`segments`** and **`show.target_words`**: choose which segments run and how long the episode is.
 
 ## How things are calculated
 

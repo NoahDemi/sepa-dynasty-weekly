@@ -565,6 +565,61 @@ def rookie_watch(ctx: Ctx) -> dict:
             "classes": classes}
 
 
+def players_to_watch(ctx: Ctx) -> dict:
+    """Standout weeks from rookies, breakout games, and players newly in starting lineups.
+
+    Built from league matchup data, so it covers rostered players only. "Prior" numbers
+    are from earlier weeks this season while the player was on a league roster.
+    """
+    prior_pts, prior_starts = {}, {}
+    for w in range(1, ctx.week):
+        for m in ctx.snap["matchups"].get(str(w), []):
+            starters = set(m.get("starters") or [])
+            for pid, p in (m.get("players_points") or {}).items():
+                if p:
+                    prior_pts.setdefault(pid, []).append(float(p))
+                if pid in starters:
+                    prior_starts[pid] = prior_starts.get(pid, 0) + 1
+    drafted = {}
+    for year in ctx.cfg["league"]["rookie_classes"]:
+        d = ctx.drafts_by_season.get(str(year))
+        teams = len((d or {}).get("slot_to_roster_id") or {}) or len(ctx.rosters)
+        for p in (d or {}).get("picks", []):
+            drafted[p["player_id"]] = {"rookie_class": year, "drafted_by": ctx.manager.get(p["roster_id"]),
+                                       "league_draft_pick": f"{p['round']}.{((p['pick_no'] - 1) % teams) + 1:02d}"}
+    cards = []
+    for m in ctx.snap["matchups"].get(str(ctx.week), []):
+        starters = set(m.get("starters") or [])
+        for pid, pts in (m.get("players_points") or {}).items():
+            hist = prior_pts.get(pid, [])
+            info = ctx.players.get(pid) or {}
+            v = ctx.values.get(pid) or {}
+            cards.append({
+                "player": ctx.pname(pid), "position": ctx.pos(pid), "nfl_team": info.get("team"),
+                "manager": ctx.manager[m["roster_id"]], "started_this_week": pid in starters,
+                "points_this_week": r2(pts),
+                "prior_avg_points_when_playing": r2(mean(hist)) if hist else None,
+                "prior_games_with_points": len(hist), "prior_starts_in_this_league": prior_starts.get(pid, 0),
+                "is_rookie": info.get("years_exp") == 0,
+                "dynasty_value": v.get("value", 0), "value_change_30d": v.get("trend_30d", 0),
+            } | drafted.get(pid, {}))
+    by_pts = sorted(cards, key=lambda c: -c["points_this_week"])
+    rookies = [c for c in by_pts if c["is_rookie"] and c["points_this_week"] >= 10][:5]
+    breakouts = [c | {"points_above_prior_avg": r2(c["points_this_week"] - (c["prior_avg_points_when_playing"] or 0))}
+                 for c in cards
+                 if not c["is_rookie"] and c["points_this_week"] >= 15
+                 and (c["prior_avg_points_when_playing"] or 0) < 10
+                 and c["points_this_week"] - (c["prior_avg_points_when_playing"] or 0) >= 8]
+    breakouts = sorted(breakouts, key=lambda c: -c["points_above_prior_avg"])[:5]
+    new_starters = [c for c in by_pts if c["started_this_week"] and c["prior_starts_in_this_league"] <= 1
+                    and ctx.week >= 3][:5]
+    return {
+        "note": "Rostered players only. Rookie = first NFL season. Breakout = 15+ points this week from a player "
+                "who averaged under 10 before. New starter = in a starting lineup this week after at most one "
+                "start in this league earlier this season. started_this_week=false means the points were on a bench.",
+        "rookie_standouts": rookies, "breakout_games": breakouts, "new_starters": new_starters}
+
+
 def dynasty_market(ctx: Ctx) -> dict:
     cards = [ctx.player_card(pid) for pid in ctx.owner_of if pid in ctx.values]
     risers = sorted(cards, key=lambda c: -c["value_change_30d"])
@@ -710,6 +765,7 @@ def build_facts(snap: dict, cfg: dict) -> dict:
             "recent_trades_this_season": earlier[-3:],
             "waiver_and_free_agent_pickups": waiver_moves(ctx)[:6],
         },
+        "players_to_watch": players_to_watch(ctx),
         "rookie_watch": rookie_watch(ctx),
         "dynasty_market": dynasty_market(ctx),
         "next_week": next_week(ctx, standings, power),
